@@ -4,6 +4,7 @@ import { get, generation, list, put } from "./db";
 import { getConfig } from "./config";
 import { hash, id, now, operation } from "./repository";
 import { contextKey, executeTask } from "./model/tasks";
+import { callWaitMs } from "./model/limiter";
 import {
   CONTRACT_VERSION,
   PROMPT_VERSION,
@@ -174,6 +175,18 @@ export async function executeRun(
         : 1;
     for (let attempt = 1; attempt <= attempts; attempt++) {
       try {
+        // 整批的修復也須等待同一額度；等待不增加重試次數或模型呼叫。
+        if (config.mode === "real" && registry.batchOwner) {
+          let announced = false;
+          while (unchanged() && callWaitMs(config.callsPerMinute) > 0) {
+            if (!announced) {
+              notify({ type: "stage", runId: run.id, message: "等待每分鐘模型額度，之後自動繼續；可取消。" });
+              announced = true;
+            }
+            await new Promise((resolve) => setTimeout(resolve, 500));
+          }
+          requireCondition(unchanged(), "CANCELLED", "已取消或清除資料，未送出模型請求。", 409);
+        }
         result = await executeTask(run.input, run.id, {
           config,
           signal: controller.signal,

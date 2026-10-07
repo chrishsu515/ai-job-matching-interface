@@ -10,3 +10,6 @@ playwright-report/
 docs/evidence/private/
 /docs/evidence-stage1.png
 exports/
+/docs/evidence/video-demo/demo-fixture-before-batch-*.webm
+/docs/evidence/video-demo/failed-*.webm
+/docs/evidence/video-live/failed-*.webm
