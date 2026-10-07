@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-07T10:11:21.826Z",
+  "mode": "fixture",
+  "browser": "系統 Chrome",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "durationMs": 39792,
+  "voice": "無配音，附繁體中文字幕",
+  "synthetic": true,
+  "isolated": true,
+  "success": false,
+  "failure": "正在讀取本機工作區",
+  "batchJobCount": 0,
+  "singleBatch": false,
+  "accepted": false,
+  "restored": false,
+  "pageErrors": [],
+  "chapters": [
+    {
+      "startMs": 764,
+      "text": "個人本機作品：固定範例呈現操作流程，不代表真實 AI 驗收。"
+    },
+    {
+      "startMs": 7918,
+      "text": "上方是全部職缺共用的履歷；補充經歷與作品來源也屬於履歷。"
+    },
+    {
+      "startMs": 14385,
+      "text": "只核對一次履歷：每項事實附引用，確認後自動比對全部職缺。"
+    },
+    {
+      "startMs": 37186,
+      "text": "確認一次後，系統依序提取並比對整份清單，不需逐張操作。"
+    }
+  ],
+  "requests": 0,
+  "knownBilledUsd": 0,
+  "unknownCosts": 0,
+  "usage": []
+}

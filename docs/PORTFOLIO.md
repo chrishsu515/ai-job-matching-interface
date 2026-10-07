@@ -10,7 +10,7 @@
 - 模型：MODEL_CONTRACTS.md（輸入、提示與驗證），API.md（後端介面）。
 - 方案及驗收：IMPLEMENTATION_PLAN.md（完整已確認方案）、STATUS.md（實測與限制）、TEST_MATRIX.md（重跑方式）。
 - 畫面：DESIGN_REVIEW.md（設計判準）及 evidence/browser（四尺寸、空、錯誤、取消、鍵盤與人工恢復）。
-- 影片：evidence/video-demo/demo-fixture.webm（兩至三分鐘固定模式示範）、evidence/video-live/live-flow.webm（真實模型全流程）；旁白見 DEMO_SCRIPT.md（影片腳本）。影片沒有配音，為整批修訂前的歷史介面；新版影片尚未重錄。
+- 影片：evidence/video-demo/demo-fixture.webm（新版兩分五十七秒固定模式）、evidence/video-live/batch-live-flow.webm（新版真實整批全流程）；兩份均附繁體中文字幕、沒有配音，旁白見 DEMO_SCRIPT.md（影片腳本）。本機播放入口 http://localhost:3003，啟動方式見 README.md（啟動說明）。舊 live-flow.webm（單職缺錄影）僅保留歷史。
 - 真實證據：evidence/live-flow.json（逐次費用）、evaluation-real.json（首次完整評估）、metrics.json（彙整）與 history（未覆蓋的失敗及回歸）。整批實測另見 evidence/batch-workflow/real-report.json（9 份職缺、16 次請求、US$0.06977455）；所有履歷與公司內容都是合成資料。
 
 ## 可使用的履歷描述
@@ -19,7 +19,7 @@
 >
 > 設計並實作履歷與職缺核對工作台，涵蓋一次履歷確認後的全清單比對、搜尋收藏比較、人工修正、逐項條件分析、原文證據定位，以及可接受、拒絕與還原的履歷改寫。以伺服器模型調用、結構化與引用驗證、版本管理及獨立事實核查降低無依據建議風險。
 >
-> 完成 37 項單元／整合／元件測試、7 組 Chrome（瀏覽器）流程，以及 1440／768／390／320px 與鍵盤操作驗收。首次 24 組合成案例取得 22 組預期流程結果；包含解析漏抓，並非一般履歷準確率。一次全新真實流程共 5 次請求，費用 US$0.01857295，瀏覽器操作 30.4 秒，樣本數 1。
+> 完成 39 項單元／整合／元件測試、7 組 Chrome（瀏覽器）流程，以及 1440／768／390／320px 與鍵盤操作驗收。首次 24 組合成案例取得 22 組預期流程結果；包含解析漏抓，並非一般履歷準確率。原單職缺全新真實流程共 5 次請求，費用 US$0.01857295，瀏覽器操作 30.4 秒，樣本數 1。新版整批錄影與費用另見 STATUS.md（實测狀態）。
 >
 > 本專案為個人本機作品，未公開部署或提供多使用者服務。Safari、手機實機、螢幕閱讀器及獨立人類語意評審尚未驗收。
 

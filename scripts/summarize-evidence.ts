@@ -29,6 +29,12 @@ for (const name of fs.readdirSync("data/evaluations"))
   readDatabase(
     path.join("data/evaluations", name, "database/workspace.sqlite"),
   );
+// 隔離錄影也有實際費用，依請求識別碼去重後併入開發紀錄。
+if (fs.existsSync("data/recordings")) {
+  for (const name of fs.readdirSync("data/recordings")) {
+    if (name.startsWith("real-")) readDatabase(path.join("data/recordings", name, "database/workspace.sqlite"));
+  }
+}
 const known = [...usage.values()].filter((u) => u.billedTicks !== null);
 const values = (full.usage as Usage[])
   .map((u) => u.durationMs)
@@ -106,6 +112,9 @@ const report = {
     accepted: live.accepted,
     restored: live.restored,
   },
+  batchRecording: fs.existsSync(`${evidence}/video-live/metadata.json`)
+    ? JSON.parse(fs.readFileSync(`${evidence}/video-live/metadata.json`, "utf8"))
+    : null,
   developmentSpending: {
     requests: usage.size,
     knownUsd: known.reduce((sum, u) => sum + Number(u.billedTicks) / 1e10, 0),

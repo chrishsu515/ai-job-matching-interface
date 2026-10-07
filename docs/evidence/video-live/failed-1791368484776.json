@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-07T10:21:24.776Z",
+  "mode": "real",
+  "browser": "系統 Chrome",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "durationMs": 280721,
+  "voice": "無配音，失敗錄影未製作字幕",
+  "synthetic": true,
+  "isolated": true,
+  "success": false,
+  "failure": "locator.waitFor: Timeout 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '接受這項改寫', exact: true }) to be visible\u001b[22m\n",
+  "batchJobCount": 3,
+  "singleBatch": false,
+  "accepted": false,
+  "restored": false,
+  "pageErrors": [],
+  "chapters": [
+    {
+      "startMs": 534,
+      "text": "真實模型流程：使用全新合成資料，保留實際等待與費用。"
+    },
+    {
+      "startMs": 2499,
+      "text": "上方是全部職缺共用的履歷；補充經歷與作品來源也屬於履歷。"
+    },
+    {
+      "startMs": 40632,
+      "text": "只核對一次履歷：每項事實附引用，確認後自動比對全部職缺。"
+    },
+    {
+      "startMs": 42683,
+      "text": "確認一次後，系統依序提取並比對整份清單，不需逐張操作。"
+    },
+    {
+      "startMs": 89847,
+      "text": "全部職缺已出結果；每張卡片都從「查看比對結果」進入。"
+    },
+    {
+      "startMs": 91865,
+      "text": "查看證據、缺口及待確認問題；職缺條件清楚標示尚未人工核對。"
+    },
+    {
+      "startMs": 95667,
+      "text": "缺少證據只表示履歷未提及，不代表沒有能力；行動年資不折算成網頁年資。"
+    },
+    {
+      "startMs": 97644,
+      "text": "要改寫時才核對目標職缺條件；前面的整批結果已自動產生。"
+    },
+    {
+      "startMs": 100564,
+      "text": "依原始事實改寫；理由、引用及事實檢查通過後，仍需本人接受。"
+    }
+  ],
+  "requests": 8,
+  "knownBilledUsd": 0.04584855,
+  "unknownCosts": 0,
+  "usage": [
+    {
+      "id": "e2c15b2b-af3a-471a-9f35-1c7c31723d73",
+      "task": "parse_resume",
+      "model": "grok-4.3",
+      "inputTokens": 1385,
+      "cachedTokens": 128,
+      "outputTokens": 2764,
+      "billedTicks": "85068500",
+      "durationMs": 18857,
+      "result": "invalid"
+    },
+    {
+      "id": "bfb901ec-d5b7-4fc2-9877-4fee90fdbd6a",
+      "task": "parse_resume",
+      "model": "grok-4.3",
+      "inputTokens": 1420,
+      "cachedTokens": 128,
+      "outputTokens": 2357,
+      "billedTicks": "75331000",
+      "durationMs": 15763,
+      "result": "completed"
+    },
+    {
+      "id": "e9731a1c-5784-427b-8dc3-9a3210c581a9",
+      "task": "parse_job",
+      "model": "grok-4.3",
+      "inputTokens": 1207,
+      "cachedTokens": 128,
+      "outputTokens": 672,
+      "billedTicks": "30543500",
+      "durationMs": 4884,
+      "result": "completed"
+    },
+    {
+      "id": "810cc8bc-2212-4f7c-940c-d8580ba1e847",
+      "task": "match",
+      "model": "grok-4.3",
+      "inputTokens": 4993,
+      "cachedTokens": 128,
+      "outputTokens": 1105,
+      "billedTicks": "88693500",
+      "durationMs": 6963,
+      "result": "completed"
+    },
+    {
+      "id": "fdfb654d-b51d-4dc7-b605-518bb2b80241",
+      "task": "parse_job",
+      "model": "grok-4.3",
+      "inputTokens": 1088,
+      "cachedTokens": 128,
+      "outputTokens": 420,
+      "billedTicks": "22756000",
+      "durationMs": 3671,
+      "result": "completed"
+    },
+    {
+      "id": "46b4c8fb-daa5-4cb4-811c-c6b1dd0d0b1f",
+      "task": "match",
+      "model": "grok-4.3",
+      "inputTokens": 4666,
+      "cachedTokens": 128,
+      "outputTokens": 446,
+      "billedTicks": "68131000",
+      "durationMs": 3307,
+      "result": "completed"
+    },
+    {
+      "id": "4725c0e9-cf4a-40a7-a635-3c96189aaa57",
+      "task": "parse_job",
+      "model": "grok-4.3",
+      "inputTokens": 1109,
+      "cachedTokens": 128,
+      "outputTokens": 295,
+      "billedTicks": "19893500",
+      "durationMs": 2656,
+      "result": "completed"
+    },
+    {
+      "id": "d8c54494-2142-4f09-aa31-1d8adc3d175c",
+      "task": "match",
+      "model": "grok-4.3",
+      "inputTokens": 4675,
+      "cachedTokens": 128,
+      "outputTokens": 439,
+      "billedTicks": "68068500",
+      "durationMs": 3883,
+      "result": "completed"
+    }
+  ],
+  "reviewNote": "原始錄影等待改寫按鈕逾時；失敗截圖顯示 LOCAL_RATE_LIMIT（本機每分鐘額度不足）。三份職缺已完成，尚未接受或還原。原始錯誤保留。"
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>操作影片｜AI 求職配對介面</title>
+  <style>
+    :root{font-family:system-ui,"Microsoft JhengHei",sans-serif;color:#182230;background:#F5F7FA;line-height:1.6}
+    *{box-sizing:border-box}body{margin:0;padding:16px 24px}header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    h1{font-size:24px;margin:0}header p{font-size:14px;color:#526071;margin:2px 0 0}nav{display:flex;gap:8px;flex-wrap:wrap}
+    button,a{font:inherit;min-height:44px;padding:8px 16px;border-radius:8px;border:1px solid #C5CEDA;background:#fff;color:#2458A6;cursor:pointer;text-decoration:none}
+    button[aria-pressed=true]{background:#2458A6;color:#fff;border-color:#2458A6}:focus-visible{outline:3px solid #8A4B10;outline-offset:3px}
+    #description{margin:10px 0;font-size:14px}figure{margin:0}video{display:block;width:100%;height:calc(100svh - 164px);min-height:60svh;object-fit:contain;background:#101722;border-radius:12px}
+    video::cue{background:rgba(16,23,34,.88);color:#fff;font-size:20px}figcaption{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:8px;font-size:14px}#feedback{color:#8A4B10}
+    @media(max-width:600px){body{padding:12px}header{gap:8px}h1{font-size:20px}header p{display:none}button,a{padding:8px 12px}video{height:calc(100svh - 174px);min-height:60svh}video::cue{font-size:16px}#description{margin:8px 0;font-size:14px}}
+  </style>
+</head>
+<body>
+  <header><div><h1>AI 求職配對介面 · 操作影片</h1><p>核對一次履歷 → 全部職缺出結果 → 查看證據與改寫</p></div>
+    <nav aria-label="選擇影片"><button id="fixture" aria-pressed="true">三分鐘展示</button><button id="real" aria-pressed="false">真實模型流程</button></nav>
+  </header>
+  <main><p id="description" aria-live="polite">固定範例 · 非真實 AI｜全程合成資料｜附繁體中文字幕</p>
+  <figure><video id="player" controls playsinline preload="metadata" poster="/fixture-poster.png" aria-label="固定範例展示影片"><source src="/demo-fixture.webm" type="video/webm"><track kind="captions" src="/demo-fixture.vtt" srclang="zh-Hant" label="繁體中文" default>瀏覽器無法播放時，請使用下方連結下載影片。</video>
+    <figcaption><span id="metrics">正在讀取影片資訊…</span><a id="download" href="/demo-fixture.webm" download>下載目前影片</a></figcaption>
+  </figure>
+  <p id="feedback" role="status"></p></main>
+  <script>
+    const player=document.getElementById('player'),metrics=document.getElementById('metrics'),description=document.getElementById('description'),feedback=document.getElementById('feedback');
+    let current='fixture';
+    const videos={fixture:{file:'demo-fixture',label:'固定範例展示影片',poster:'fixture-poster.png',description:'固定範例 · 非真實 AI｜全程合成資料｜附繁體中文字幕'},real:{file:'batch-live-flow',label:'真實模型完整流程',poster:'real-poster.png',description:'真實 xAI 模式｜全新合成資料｜原速保留模型等待與實際費用'}};
+    async function details(mode){try{const response=await fetch('/'+mode+'-metadata.json');if(!response.ok)throw new Error();const report=await response.json();if(current!==mode)return;metrics.textContent=`${report.batchJobCount} 份職缺 · ${report.requests} 次請求 · 已知費用 US$${Number(report.knownBilledUsd).toFixed(8)} · 未知費用 ${report.unknownCosts} 次`;}catch{metrics.textContent='影片資訊尚未就緒。';}}
+    function choose(mode){current=mode;player.pause();const item=videos[mode];player.src='/'+item.file+'.webm';player.poster='/'+item.poster;player.setAttribute('aria-label',item.label);player.querySelector('track').src='/'+item.file+'.vtt';description.textContent=item.description;document.getElementById('download').href='/'+item.file+'.webm';for(const name of Object.keys(videos))document.getElementById(name).setAttribute('aria-pressed',String(name===mode));feedback.textContent='';player.load();details(mode);}
+    document.getElementById('fixture').onclick=()=>choose('fixture');document.getElementById('real').onclick=()=>choose('real');
+    player.addEventListener('loadedmetadata',()=>{const minutes=Math.floor(player.duration/60),seconds=Math.round(player.duration%60);feedback.textContent=`影片長度 ${minutes} 分 ${seconds} 秒，可使用播放器的字幕與全螢幕功能。`;});
+    player.addEventListener('error',()=>feedback.textContent='影片載入失敗，請確認本機影片服務與檔案是否完整。');
+    details('fixture');
+  </script>
+</body></html>

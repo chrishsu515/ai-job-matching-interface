@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-07T10:31:07.226Z",
+  "success": false,
+  "mode": "real",
+  "synthetic": true,
+  "isolated": true,
+  "failure": "整批修復未等待每分鐘額度，第三份職缺失敗；保留畫面與付費證據。",
+  "jobs": [
+    {
+      "jobId": "b6924a3f-37a4-43de-ad32-81da325d3c8e",
+      "versionId": "23462956-bfb8-4555-9836-e74baa6197d4",
+      "status": "completed",
+      "error": null
+    },
+    {
+      "jobId": "9c4be952-31c3-412a-8498-e5708e048431",
+      "versionId": "7b829405-c788-4489-8db0-d984475abbdb",
+      "status": "completed",
+      "error": null
+    },
+    {
+      "jobId": "1a2ec38b-57ce-40fa-bdd5-20ea996c6890",
+      "versionId": "328ff62c-2f71-46ac-8c83-6809bf4b08bf",
+      "status": "failed",
+      "error": "本機每分鐘模型呼叫已達上限，請稍後再試。"
+    }
+  ],
+  "requests": 7,
+  "knownBilledUsd": 0.023984850000000002,
+  "unknownCosts": 1,
+  "usage": [
+    {
+      "id": "dbf3b05b-82ab-4101-92b8-c117356427c2",
+      "task": "parse_resume",
+      "result": "completed",
+      "billedTicks": "51806000"
+    },
+    {
+      "id": "911160a6-3103-4b5f-a7d2-22dfbfa3169d",
+      "task": "parse_job",
+      "result": "completed",
+      "billedTicks": "26706000"
+    },
+    {
+      "id": "0a54e414-76f1-4deb-9674-e30fa0c86c40",
+      "task": "match",
+      "result": "completed",
+      "billedTicks": "67593500"
+    },
+    {
+      "id": "f9401184-9e58-400c-b4ce-4a33ec3f7aaa",
+      "task": "parse_job",
+      "result": "completed",
+      "billedTicks": "21981000"
+    },
+    {
+      "id": "53c085ad-9a41-4add-a711-efff31665035",
+      "task": "match",
+      "result": "completed",
+      "billedTicks": "51868500"
+    },
+    {
+      "id": "b1611168-78e6-42ce-8cb4-5decdb7ef314",
+      "task": "parse_job",
+      "result": "completed",
+      "billedTicks": "19893500"
+    },
+    {
+      "id": "da3f23c5-6277-49ad-b072-b4fdd0fb1d5c",
+      "task": "match",
+      "result": "failed",
+      "billedTicks": null
+    }
+  ]
+}

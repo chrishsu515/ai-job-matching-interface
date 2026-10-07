@@ -21,3 +21,5 @@ npm run dev
 開啟 http://localhost:3000。正式本機展示執行 npm run build（建置），再執行 npm start（啟動）；僅綁定回環位址。設定修改後重新啟動。必要驗證：npm test、npm run typecheck、npm run lint（測試、型別及靜態檢查）。
 
 操作步驟見 docs/USER_GUIDE.md（使用指南）；功能與限制見 PROJECT_FUNCTIONS_AND_WORKFLOWS.md（功能與流程主檔），驗收狀態見 docs/STATUS.md（狀態報告）。
+
+觀看已錄製的展示與真實模型影片：執行 npx tsx scripts/serve-recordings.ts（本機影片服務），開啟 http://localhost:3003。播放影片不呼叫模型。

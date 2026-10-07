@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-07T10:33:35.268Z",
+  "browser": "系統 Chrome",
+  "results": [
+    {
+      "mode": "fixture",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media": {
+        "duration": 176.92,
+        "width": 1440,
+        "height": 1000
+      },
+      "areaRatio": 0.8081333333333334,
+      "horizontalOverflow": false,
+      "axeViolations": 0,
+      "playback": true,
+      "captions": true,
+      "keyboardModeSwitch": true
+    },
+    {
+      "mode": "fixture",
+      "viewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "media": {
+        "duration": 176.92,
+        "width": 1440,
+        "height": 1000
+      },
+      "areaRatio": 0.78375,
+      "horizontalOverflow": false,
+      "axeViolations": 0,
+      "playback": true,
+      "captions": true,
+      "keyboardModeSwitch": true
+    },
+    {
+      "mode": "fixture",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "media": {
+        "duration": 176.92,
+        "width": 1440,
+        "height": 1000
+      },
+      "areaRatio": 0.7449872402479037,
+      "horizontalOverflow": false,
+      "axeViolations": 0,
+      "playback": true,
+      "captions": true,
+      "keyboardModeSwitch": true
+    },
+    {
+      "mode": "fixture",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "media": {
+        "duration": 176.92,
+        "width": 1440,
+        "height": 1000
+      },
+      "areaRatio": 0.7343009478672986,
+      "horizontalOverflow": false,
+      "axeViolations": 0,
+      "playback": true,
+      "captions": true,
+      "keyboardModeSwitch": true
+    },
+    {
+      "mode": "real",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "media": {
+        "duration": 94,
+        "width": 1440,
+        "height": 1000
+      },
+      "areaRatio": 0.8081333333333334,
+      "horizontalOverflow": false,
+      "axeViolations": 0,
+      "playback": true,
+      "captions": true,
+      "keyboardModeSwitch": true
+    },
+    {
+      "mode": "real",
+      "viewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "media": {
+        "duration": 94,
+        "width": 1440,
+        "height": 1000
+      },
+      "areaRatio": 0.78375,
+      "horizontalOverflow": false,
+      "axeViolations": 0,
+      "playback": true,
+      "captions": true,
+      "keyboardModeSwitch": true
+    },
+    {
+      "mode": "real",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "media": {
+        "duration": 94,
+        "width": 1440,
+        "height": 1000
+      },
+      "areaRatio": 0.7449872402479037,
+      "horizontalOverflow": false,
+      "axeViolations": 0,
+      "playback": true,
+      "captions": true,
+      "keyboardModeSwitch": true
+    },
+    {
+      "mode": "real",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "media": {
+        "duration": 94,
+        "width": 1440,
+        "height": 1000
+      },
+      "areaRatio": 0.7343009478672986,
+      "horizontalOverflow": false,
+      "axeViolations": 0,
+      "playback": true,
+      "captions": true,
+      "keyboardModeSwitch": true
+    }
+  ],
+  "rangeRequest": true,
+  "unknownFileDenied": true,
+  "pageErrors": []
+}

@@ -8,7 +8,7 @@ function scan(dir: string) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const file = path.join(dir, entry.name);
     if (entry.isDirectory()) scan(file);
-    else if (/\.(js|map|json|html|md|ts|tsx)$/.test(entry.name)) {
+    else if (/\.(js|map|json|html|md|ts|tsx|vtt)$/.test(entry.name)) {
       count++;
       const contents = fs.readFileSync(file, "utf8");
       if (key && contents.includes(key))

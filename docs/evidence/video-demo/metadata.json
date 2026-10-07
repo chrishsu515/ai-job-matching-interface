@@ -1,7 +1,74 @@
 {
+  "date": "2026-10-07T10:15:26.506Z",
   "mode": "fixture",
   "browser": "系統 Chrome",
-  "durationMs": 158081,
-  "voice": "無配音，旁白腳本另附",
-  "synthetic": true
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "durationMs": 171062,
+  "voice": "無配音，附繁體中文字幕",
+  "synthetic": true,
+  "isolated": true,
+  "success": true,
+  "failure": null,
+  "batchJobCount": 3,
+  "singleBatch": true,
+  "accepted": true,
+  "restored": true,
+  "pageErrors": [],
+  "chapters": [
+    {
+      "startMs": 518,
+      "text": "個人本機作品：固定範例呈現操作流程，不代表真實 AI 驗收。"
+    },
+    {
+      "startMs": 7670,
+      "text": "上方是全部職缺共用的履歷；補充經歷與作品來源也屬於履歷。"
+    },
+    {
+      "startMs": 14127,
+      "text": "只核對一次履歷：每項事實附引用，確認後自動比對全部職缺。"
+    },
+    {
+      "startMs": 37191,
+      "text": "確認一次後，系統依序提取並比對整份清單，不需逐張操作。"
+    },
+    {
+      "startMs": 39766,
+      "text": "全部職缺已出結果；每張卡片都從「查看比對結果」進入。"
+    },
+    {
+      "startMs": 61242,
+      "text": "查看證據、缺口及待確認問題；職缺條件清楚標示尚未人工核對。"
+    },
+    {
+      "startMs": 84039,
+      "text": "缺少證據只表示履歷未提及，不代表沒有能力；行動年資不折算成網頁年資。"
+    },
+    {
+      "startMs": 92248,
+      "text": "要改寫時才核對目標職缺條件；前面的整批結果已自動產生。"
+    },
+    {
+      "startMs": 112010,
+      "text": "依原始事實改寫；理由、引用及事實檢查通過後，仍需本人接受。"
+    },
+    {
+      "startMs": 137137,
+      "text": "接受後建立履歷修訂，原文證據保留，可隨時還原。"
+    },
+    {
+      "startMs": 151258,
+      "text": "固定範例沒有模型費用；真實模式另附完整錄影與逐次費用。"
+    },
+    {
+      "startMs": 157331,
+      "text": "資料保存在本機，可主動清除；金鑰與供應商保存範圍另有說明。"
+    }
+  ],
+  "requests": 0,
+  "knownBilledUsd": 0,
+  "unknownCosts": 0,
+  "usage": []
 }

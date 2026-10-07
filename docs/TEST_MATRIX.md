@@ -38,7 +38,7 @@ tests/cases.ts（人工預期案例）含二十四組原文與預期狀態，十
 npm run evaluate
 npm run evaluate:live
 npm run compare:models
-npx tsx scripts/live-browser.ts --fresh
+npx tsx scripts/live-browser.ts
 ```
 
 前三項分別是固定模式、真實全案例及兩個候選各六案例。後兩項與真實全案例均會付費，採序列及本機流量上限，不與其他真實測試同時執行。評估結果與完整合成內容留在 docs/evidence（可分享證據），憑證只在隔離暫存設定，完成後刪除。
@@ -50,3 +50,14 @@ npx tsx scripts/live-browser.ts --fresh
 唯讀檢查目前本機首頁可執行 npx tsx scripts/inspect-home.ts（首頁畫面檢查）。它保存四個尺寸截圖並確認補充來源位置、文件數未變及沒有新增模型請求，不清除範例或使用者資料。
 
 整批新增驗證：核對一次履歷後三職缺全出結果、統一入口、不冒稱職缺已人工確認、再次更新沿用有效快取、部分失敗仍繼續、取消／重新啟動不自動付費、履歷修改停止及清除不復活。真實整批以 scripts/live-batch-browser.ts（實際瀏覽器腳本）明確啟動，會產生付費請求；只允許既有合成資料，不列入預設測試。
+
+錄影使用 scripts/recording-environment.ts（隔離環境），始終建立空白資料庫與 http://localhost:3002，不清除本人資料。真實錄影會產生付費請求，包含三份職缺的整批比對、改寫與獨立核查；固定錄影不付費。完成或失敗後刪除隔離金鑰設定，保留無金鑰資料庫供費用去重。整批任務內的唯一一次修復也等待每分鐘額度；回歸測試驗證等待與取消沒有額外請求。
+
+```powershell
+npx tsx scripts/record-demo.ts
+npx tsx scripts/serve-recordings.ts
+# 另開終端，驗證兩份影片播放、字幕、鍵盤切換與四尺寸面積
+npx tsx scripts/inspect-recordings.ts
+```
+
+播放器驗收讀取錄影，不呼叫模型；確認實際解碼、影片跳轉、可見面積至少 50%、無水平溢出、無障礙掃描及允許檔案清單。手機尺寸模擬不代表手機實機。
