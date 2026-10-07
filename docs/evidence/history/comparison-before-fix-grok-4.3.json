@@ -1,0 +1,1253 @@
+{
+  "date": "2026-10-06T17:37:21.770Z",
+  "mode": "real",
+  "model": "grok-4.3",
+  "cases": [
+    {
+      "id": "case-01",
+      "name": "明確網頁證據",
+      "split": "development",
+      "expected": "supported",
+      "passed": true,
+      "durationMs": 24771,
+      "reviews": [
+        {
+          "id": "c4d1e286-d077-42b3-8c5b-7d1b681c7caf",
+          "documentId": "d25c9057-adc8-41b8-95b5-986af784d1c8",
+          "versionId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4",
+          "revision": 1,
+          "items": [
+            {
+              "label": "使用 React Web 開發瀏覽器表單",
+              "kind": "experience",
+              "category": null,
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4-s2",
+                  "quote": "- 使用 React Web 開發瀏覽器表單。",
+                  "documentVersionId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4",
+                  "start": 7,
+                  "end": 30
+                }
+              ],
+              "id": "43a34574-9654-499e-9657-84fce9dc12c8",
+              "origin": "model",
+              "edited": false
+            },
+            {
+              "label": "React",
+              "kind": "skill",
+              "category": null,
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4-s2",
+                  "quote": "- 使用 React Web 開發瀏覽器表單。",
+                  "documentVersionId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4",
+                  "start": 7,
+                  "end": 30
+                }
+              ],
+              "id": "10b86d2d-c597-4551-a3a4-6c911da91107",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "使用 React Web 開發瀏覽器表單",
+              "kind": "experience",
+              "category": null,
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4-s2",
+                  "quote": "- 使用 React Web 開發瀏覽器表單。",
+                  "documentVersionId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4",
+                  "start": 7,
+                  "end": 30
+                }
+              ],
+              "id": "43a34574-9654-499e-9657-84fce9dc12c8",
+              "origin": "model",
+              "edited": false
+            },
+            {
+              "label": "React",
+              "kind": "skill",
+              "category": null,
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4-s2",
+                  "quote": "- 使用 React Web 開發瀏覽器表單。",
+                  "documentVersionId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4",
+                  "start": 7,
+                  "end": 30
+                }
+              ],
+              "id": "10b86d2d-c597-4551-a3a4-6c911da91107",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T17:34:28.517Z"
+        },
+        {
+          "id": "5aa45ad2-2730-4f70-a135-daeae87b2d3b",
+          "documentId": "d7dfed6f-2d78-4d17-9b56-c4ecc35ba3d0",
+          "versionId": "e886acad-8a28-49c7-84fa-8c63d5c5c508",
+          "revision": 1,
+          "items": [
+            {
+              "label": "React Web 開發經驗",
+              "kind": "requirement",
+              "category": "required",
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "e886acad-8a28-49c7-84fa-8c63d5c5c508-s2",
+                  "quote": "- 必要：React Web 開發經驗。",
+                  "documentVersionId": "e886acad-8a28-49c7-84fa-8c63d5c5c508",
+                  "start": 7,
+                  "end": 27
+                }
+              ],
+              "id": "8dffa6e3-c7a6-48c7-817f-4ed2bdcc0eae",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "React Web 開發經驗",
+              "kind": "requirement",
+              "category": "required",
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "e886acad-8a28-49c7-84fa-8c63d5c5c508-s2",
+                  "quote": "- 必要：React Web 開發經驗。",
+                  "documentVersionId": "e886acad-8a28-49c7-84fa-8c63d5c5c508",
+                  "start": 7,
+                  "end": 27
+                }
+              ],
+              "id": "8dffa6e3-c7a6-48c7-817f-4ed2bdcc0eae",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T17:34:39.019Z"
+        }
+      ],
+      "analysis": {
+        "id": "c50ff41a-8a08-4186-93ca-ce9cf93f7a75",
+        "resumeId": "d25c9057-adc8-41b8-95b5-986af784d1c8",
+        "jobId": "d7dfed6f-2d78-4d17-9b56-c4ecc35ba3d0",
+        "resumeVersionId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4",
+        "jobVersionId": "e886acad-8a28-49c7-84fa-8c63d5c5c508",
+        "resumeReviewRevision": 2,
+        "jobReviewRevision": 2,
+        "items": [
+          {
+            "requirementId": "8dffa6e3-c7a6-48c7-817f-4ed2bdcc0eae",
+            "status": "supported",
+            "reason": "履歷明確記載使用 React Web 開發瀏覽器表單，符合職缺要求的 React Web 開發經驗。",
+            "evidenceRefs": [
+              {
+                "segmentId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4-s2",
+                "quote": "- 使用 React Web 開發瀏覽器表單。",
+                "documentVersionId": "8b2f4b24-1074-43f4-8f20-0f27245c6ab4",
+                "start": 7,
+                "end": 30
+              }
+            ],
+            "clarifyingQuestion": null,
+            "suggestedAction": null,
+            "excluded": false,
+            "guardrail": null
+          }
+        ],
+        "mode": "real",
+        "createdAt": "2026-10-06T17:34:50.826Z"
+      }
+    },
+    {
+      "id": "case-02",
+      "name": "技能未提及",
+      "split": "development",
+      "expected": "missing_evidence",
+      "passed": true,
+      "durationMs": 34168,
+      "reviews": [
+        {
+          "id": "23e62d4d-a6c0-402b-9ec5-78a7dcab708b",
+          "documentId": "a069b8e0-270f-497a-805c-82ee0372a0cd",
+          "versionId": "7dfb68c2-685d-4f58-8203-dc11d1cb230a",
+          "revision": 1,
+          "items": [
+            {
+              "label": "使用 TypeScript 開發行動產品",
+              "kind": "skill",
+              "category": null,
+              "platform": "mobile",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "7dfb68c2-685d-4f58-8203-dc11d1cb230a-s2",
+                  "quote": "- 使用 TypeScript 開發行動產品。",
+                  "documentVersionId": "7dfb68c2-685d-4f58-8203-dc11d1cb230a",
+                  "start": 7,
+                  "end": 30
+                }
+              ],
+              "id": "3fcdc568-cdc5-4998-85f1-d7a02a9fcbd8",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "使用 TypeScript 開發行動產品",
+              "kind": "skill",
+              "category": null,
+              "platform": "mobile",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "7dfb68c2-685d-4f58-8203-dc11d1cb230a-s2",
+                  "quote": "- 使用 TypeScript 開發行動產品。",
+                  "documentVersionId": "7dfb68c2-685d-4f58-8203-dc11d1cb230a",
+                  "start": 7,
+                  "end": 30
+                }
+              ],
+              "id": "3fcdc568-cdc5-4998-85f1-d7a02a9fcbd8",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T17:35:01.883Z"
+        },
+        {
+          "id": "471c0eef-be75-4a56-8541-e85ecae7269f",
+          "documentId": "a13f2b73-0212-4b55-bafc-f98887f4b13d",
+          "versionId": "53bc72ce-d337-4db4-bb67-9045c0499d2d",
+          "revision": 1,
+          "items": [
+            {
+              "label": "Python 開發經驗",
+              "kind": "requirement",
+              "category": "required",
+              "platform": "unknown",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "53bc72ce-d337-4db4-bb67-9045c0499d2d-s2",
+                  "quote": "- 必要：Python 開發經驗。",
+                  "documentVersionId": "53bc72ce-d337-4db4-bb67-9045c0499d2d",
+                  "start": 7,
+                  "end": 24
+                }
+              ],
+              "id": "2d997c3a-3bf9-460f-8578-21133972e5f8",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "Python 開發經驗",
+              "kind": "requirement",
+              "category": "required",
+              "platform": "unknown",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "53bc72ce-d337-4db4-bb67-9045c0499d2d-s2",
+                  "quote": "- 必要：Python 開發經驗。",
+                  "documentVersionId": "53bc72ce-d337-4db4-bb67-9045c0499d2d",
+                  "start": 7,
+                  "end": 24
+                }
+              ],
+              "id": "2d997c3a-3bf9-460f-8578-21133972e5f8",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T17:35:13.468Z"
+        }
+      ],
+      "analysis": {
+        "id": "66464a93-a0b2-4d3a-a604-784e9af348a2",
+        "resumeId": "a069b8e0-270f-497a-805c-82ee0372a0cd",
+        "jobId": "a13f2b73-0212-4b55-bafc-f98887f4b13d",
+        "resumeVersionId": "7dfb68c2-685d-4f58-8203-dc11d1cb230a",
+        "jobVersionId": "53bc72ce-d337-4db4-bb67-9045c0499d2d",
+        "resumeReviewRevision": 2,
+        "jobReviewRevision": 2,
+        "items": [
+          {
+            "requirementId": "2d997c3a-3bf9-460f-8578-21133972e5f8",
+            "status": "missing_evidence",
+            "reason": "履歷未提及足以支持這項條件的證據；不能據此判斷不具備能力。 履歷未提及 Python 開發經驗。",
+            "evidenceRefs": [],
+            "clarifyingQuestion": null,
+            "suggestedAction": null,
+            "excluded": false,
+            "guardrail": null
+          }
+        ],
+        "mode": "real",
+        "createdAt": "2026-10-06T17:35:24.994Z"
+      }
+    },
+    {
+      "id": "case-03",
+      "name": "技術同義詞",
+      "split": "development",
+      "expected": "supported",
+      "passed": false,
+      "durationMs": 11159,
+      "error": "沒有整理出可引用項目，請補充內容或重新核對。"
+    },
+    {
+      "id": "case-04",
+      "name": "行動與網頁混淆",
+      "split": "development",
+      "expected": "needs_confirmation",
+      "passed": true,
+      "durationMs": 34688,
+      "reviews": [
+        {
+          "id": "ce69a055-99fd-443c-9e77-21bb1986c41f",
+          "documentId": "a684b611-da5a-48f2-82b4-81a041015abd",
+          "versionId": "d3168b06-2517-422e-81b4-d6a25975d47d",
+          "revision": 1,
+          "items": [
+            {
+              "label": "使用 React Native 開發 iOS App。",
+              "kind": "experience",
+              "category": null,
+              "platform": "mobile",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "d3168b06-2517-422e-81b4-d6a25975d47d-s2",
+                  "quote": "- 使用 React Native 開發 iOS App。",
+                  "documentVersionId": "d3168b06-2517-422e-81b4-d6a25975d47d",
+                  "start": 7,
+                  "end": 36
+                }
+              ],
+              "id": "8ba157bf-e58e-48b6-9eef-6b5ee2c6cb59",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "使用 React Native 開發 iOS App。",
+              "kind": "experience",
+              "category": null,
+              "platform": "mobile",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "d3168b06-2517-422e-81b4-d6a25975d47d-s2",
+                  "quote": "- 使用 React Native 開發 iOS App。",
+                  "documentVersionId": "d3168b06-2517-422e-81b4-d6a25975d47d",
+                  "start": 7,
+                  "end": 36
+                }
+              ],
+              "id": "8ba157bf-e58e-48b6-9eef-6b5ee2c6cb59",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T17:35:48.208Z"
+        },
+        {
+          "id": "d4f0b662-0bcd-4025-9648-ad7eccdfbf09",
+          "documentId": "259da6a4-04fa-47be-bc37-e9a06bebe55e",
+          "versionId": "75c4e71b-54ae-4c37-9f8c-a61a8cfde72c",
+          "revision": 1,
+          "items": [
+            {
+              "label": "React Web 開發經驗",
+              "kind": "requirement",
+              "category": "required",
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "75c4e71b-54ae-4c37-9f8c-a61a8cfde72c-s2",
+                  "quote": "- 必要：React Web 開發經驗。",
+                  "documentVersionId": "75c4e71b-54ae-4c37-9f8c-a61a8cfde72c",
+                  "start": 7,
+                  "end": 27
+                }
+              ],
+              "id": "8d681ace-e47a-4970-9f8c-afbc84d62bd2",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "React Web 開發經驗",
+              "kind": "requirement",
+              "category": "required",
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "75c4e71b-54ae-4c37-9f8c-a61a8cfde72c-s2",
+                  "quote": "- 必要：React Web 開發經驗。",
+                  "documentVersionId": "75c4e71b-54ae-4c37-9f8c-a61a8cfde72c",
+                  "start": 7,
+                  "end": 27
+                }
+              ],
+              "id": "8d681ace-e47a-4970-9f8c-afbc84d62bd2",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T17:35:59.378Z"
+        }
+      ],
+      "analysis": {
+        "id": "9e5d7608-edef-4c70-8fa6-f92230d6673a",
+        "resumeId": "a684b611-da5a-48f2-82b4-81a041015abd",
+        "jobId": "259da6a4-04fa-47be-bc37-e9a06bebe55e",
+        "resumeVersionId": "d3168b06-2517-422e-81b4-d6a25975d47d",
+        "jobVersionId": "75c4e71b-54ae-4c37-9f8c-a61a8cfde72c",
+        "resumeReviewRevision": 2,
+        "jobReviewRevision": 2,
+        "items": [
+          {
+            "requirementId": "8d681ace-e47a-4970-9f8c-afbc84d62bd2",
+            "status": "needs_confirmation",
+            "reason": "已有行動端 React Native 證據，但不能直接對應 React Web；需要確認網頁經驗。",
+            "evidenceRefs": [],
+            "clarifyingQuestion": "請補充可核對的對應經驗或期間。",
+            "suggestedAction": null,
+            "excluded": false,
+            "guardrail": "已有行動端 React Native 證據，但不能直接對應 React Web；需要確認網頁經驗。"
+          }
+        ],
+        "mode": "real",
+        "createdAt": "2026-10-06T17:36:10.841Z"
+      }
+    },
+    {
+      "id": "case-05",
+      "name": "Next.js 不等於 React",
+      "split": "development",
+      "expected": "missing_evidence",
+      "passed": true,
+      "durationMs": 35300,
+      "reviews": [
+        {
+          "id": "fe8c69c3-c61a-4547-8cd4-74b7be5b9837",
+          "documentId": "c2413bff-4bb7-4752-a67e-c14e642af179",
+          "versionId": "0c0ac7cb-4aca-4fd8-9217-bf8346de7c1a",
+          "revision": 1,
+          "items": [
+            {
+              "label": "使用 React Web 開發瀏覽器介面",
+              "kind": "experience",
+              "category": null,
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "0c0ac7cb-4aca-4fd8-9217-bf8346de7c1a-s2",
+                  "quote": "- 使用 React Web 開發瀏覽器介面。",
+                  "documentVersionId": "0c0ac7cb-4aca-4fd8-9217-bf8346de7c1a",
+                  "start": 7,
+                  "end": 30
+                }
+              ],
+              "id": "604c1811-2b1c-4905-aae1-a37218b510c0",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "使用 React Web 開發瀏覽器介面",
+              "kind": "experience",
+              "category": null,
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "0c0ac7cb-4aca-4fd8-9217-bf8346de7c1a-s2",
+                  "quote": "- 使用 React Web 開發瀏覽器介面。",
+                  "documentVersionId": "0c0ac7cb-4aca-4fd8-9217-bf8346de7c1a",
+                  "start": 7,
+                  "end": 30
+                }
+              ],
+              "id": "604c1811-2b1c-4905-aae1-a37218b510c0",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T17:36:22.648Z"
+        },
+        {
+          "id": "e35ef30f-08c8-4630-b6b4-756a75e41df0",
+          "documentId": "6e302512-cb80-4a15-96c8-e3b0e6dc7feb",
+          "versionId": "c654b615-4115-45ba-8d8e-b9945552404f",
+          "revision": 1,
+          "items": [
+            {
+              "label": "Next.js 開發經驗",
+              "kind": "requirement",
+              "category": "required",
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "c654b615-4115-45ba-8d8e-b9945552404f-s2",
+                  "quote": "- 必要：Next.js 開發經驗。",
+                  "documentVersionId": "c654b615-4115-45ba-8d8e-b9945552404f",
+                  "start": 7,
+                  "end": 25
+                }
+              ],
+              "id": "fef7aa3c-19df-4edc-9f40-4beb11633b6f",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "Next.js 開發經驗",
+              "kind": "requirement",
+              "category": "required",
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "c654b615-4115-45ba-8d8e-b9945552404f-s2",
+                  "quote": "- 必要：Next.js 開發經驗。",
+                  "documentVersionId": "c654b615-4115-45ba-8d8e-b9945552404f",
+                  "start": 7,
+                  "end": 25
+                }
+              ],
+              "id": "fef7aa3c-19df-4edc-9f40-4beb11633b6f",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T17:36:33.919Z"
+        }
+      ],
+      "analysis": {
+        "id": "b4781d56-083a-4319-a2a5-ee70ea9ff060",
+        "resumeId": "c2413bff-4bb7-4752-a67e-c14e642af179",
+        "jobId": "6e302512-cb80-4a15-96c8-e3b0e6dc7feb",
+        "resumeVersionId": "0c0ac7cb-4aca-4fd8-9217-bf8346de7c1a",
+        "jobVersionId": "c654b615-4115-45ba-8d8e-b9945552404f",
+        "resumeReviewRevision": 2,
+        "jobReviewRevision": 2,
+        "items": [
+          {
+            "requirementId": "fef7aa3c-19df-4edc-9f40-4beb11633b6f",
+            "status": "missing_evidence",
+            "reason": "履歷未提及足以支持這項條件的證據；不能據此判斷不具備能力。 履歷提及使用 React Web 開發瀏覽器介面，但未提及 Next.js 相關經驗。",
+            "evidenceRefs": [
+              {
+                "segmentId": "0c0ac7cb-4aca-4fd8-9217-bf8346de7c1a-s2",
+                "quote": "- 使用 React Web 開發瀏覽器介面。",
+                "documentVersionId": "0c0ac7cb-4aca-4fd8-9217-bf8346de7c1a",
+                "start": 7,
+                "end": 30
+              }
+            ],
+            "clarifyingQuestion": null,
+            "suggestedAction": null,
+            "excluded": false,
+            "guardrail": null
+          }
+        ],
+        "mode": "real",
+        "createdAt": "2026-10-06T17:36:46.141Z"
+      }
+    },
+    {
+      "id": "case-06",
+      "name": "技能期間不明",
+      "split": "development",
+      "expected": "needs_confirmation",
+      "passed": true,
+      "durationMs": 35625,
+      "reviews": [
+        {
+          "id": "5ceb3843-dd6e-4970-80c0-b38d8f2ae89f",
+          "documentId": "77e173a5-338b-479d-bfe5-2a8bc66636ab",
+          "versionId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8",
+          "revision": 1,
+          "items": [
+            {
+              "label": "iOS 工程師",
+              "kind": "experience",
+              "category": null,
+              "platform": "mobile",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8-s2",
+                  "quote": "- 2014–2024 任職 iOS 工程師，2024 參與 React Web。",
+                  "documentVersionId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8",
+                  "start": 7,
+                  "end": 48
+                }
+              ],
+              "id": "abdf8c16-b186-4876-85e4-1f0effebf70c",
+              "origin": "model",
+              "edited": false
+            },
+            {
+              "label": "React Web",
+              "kind": "experience",
+              "category": null,
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8-s2",
+                  "quote": "- 2014–2024 任職 iOS 工程師，2024 參與 React Web。",
+                  "documentVersionId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8",
+                  "start": 7,
+                  "end": 48
+                }
+              ],
+              "id": "e0c1032a-626e-474c-b76c-9785da5decf5",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "iOS 工程師",
+              "kind": "experience",
+              "category": null,
+              "platform": "mobile",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8-s2",
+                  "quote": "- 2014–2024 任職 iOS 工程師，2024 參與 React Web。",
+                  "documentVersionId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8",
+                  "start": 7,
+                  "end": 48
+                }
+              ],
+              "id": "abdf8c16-b186-4876-85e4-1f0effebf70c",
+              "origin": "model",
+              "edited": false
+            },
+            {
+              "label": "React Web",
+              "kind": "experience",
+              "category": null,
+              "platform": "web",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8-s2",
+                  "quote": "- 2014–2024 任職 iOS 工程師，2024 參與 React Web。",
+                  "documentVersionId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8",
+                  "start": 7,
+                  "end": 48
+                }
+              ],
+              "id": "e0c1032a-626e-474c-b76c-9785da5decf5",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [
+            "原文未明確寫出 iOS 工程師的年資數字，years 欄位為 null",
+            "原文未明確寫出 React Web 的年資數字，years 欄位為 null"
+          ],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T17:36:58.792Z"
+        },
+        {
+          "id": "f8237fa4-cac2-4778-a1d2-eac48df9b685",
+          "documentId": "3843e262-2bfd-4c9b-8d19-e627809c2c4a",
+          "versionId": "1ca891cb-c587-4fcf-8bc4-69db263eb84e",
+          "revision": 1,
+          "items": [
+            {
+              "label": "React Web 明示 5 年開發經驗",
+              "kind": "requirement",
+              "category": "required",
+              "platform": "web",
+              "years": 5,
+              "refs": [
+                {
+                  "segmentId": "1ca891cb-c587-4fcf-8bc4-69db263eb84e-s2",
+                  "quote": "- 必要：React Web 明示 5 年開發經驗。",
+                  "documentVersionId": "1ca891cb-c587-4fcf-8bc4-69db263eb84e",
+                  "start": 7,
+                  "end": 33
+                }
+              ],
+              "id": "c5ce590d-bee7-467a-97fd-ec00f34d94c7",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "React Web 明示 5 年開發經驗",
+              "kind": "requirement",
+              "category": "required",
+              "platform": "web",
+              "years": 5,
+              "refs": [
+                {
+                  "segmentId": "1ca891cb-c587-4fcf-8bc4-69db263eb84e-s2",
+                  "quote": "- 必要：React Web 明示 5 年開發經驗。",
+                  "documentVersionId": "1ca891cb-c587-4fcf-8bc4-69db263eb84e",
+                  "start": 7,
+                  "end": 33
+                }
+              ],
+              "id": "c5ce590d-bee7-467a-97fd-ec00f34d94c7",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T17:37:12.947Z"
+        }
+      ],
+      "analysis": {
+        "id": "1bed2db9-05f6-4726-b3e2-6adf296af787",
+        "resumeId": "77e173a5-338b-479d-bfe5-2a8bc66636ab",
+        "jobId": "3843e262-2bfd-4c9b-8d19-e627809c2c4a",
+        "resumeVersionId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8",
+        "jobVersionId": "1ca891cb-c587-4fcf-8bc4-69db263eb84e",
+        "resumeReviewRevision": 2,
+        "jobReviewRevision": 2,
+        "items": [
+          {
+            "requirementId": "c5ce590d-bee7-467a-97fd-ec00f34d94c7",
+            "status": "needs_confirmation",
+            "reason": "履歷提到相關技能，但技能期間未明示或不足；需確認，不能從任職日期推算。",
+            "evidenceRefs": [
+              {
+                "segmentId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8-s2",
+                "quote": "- 2014–2024 任職 iOS 工程師，2024 參與 React Web。",
+                "documentVersionId": "b94e169a-6920-4b4f-a8cd-602ece05e7d8",
+                "start": 7,
+                "end": 48
+              }
+            ],
+            "clarifyingQuestion": "請補充可核對的對應經驗或期間。",
+            "suggestedAction": null,
+            "excluded": false,
+            "guardrail": "履歷提到相關技能，但技能期間未明示或不足；需確認，不能從任職日期推算。"
+          }
+        ],
+        "mode": "real",
+        "createdAt": "2026-10-06T17:37:21.766Z"
+      }
+    }
+  ],
+  "sampleCount": 6,
+  "passed": 5,
+  "usage": [
+    {
+      "id": "0c529bf4-e741-4ef9-8780-dd74739bc3d6",
+      "runId": "case-01-grok-4.3",
+      "task": "parse_resume",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "9959915e-5c5a-98f4-b110-49e53f20cde7",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 969,
+      "outputTokens": 232,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "16568500",
+      "estimatedUsd": 0.0016568499999999999,
+      "durationMs": 2436,
+      "firstContentMs": 816,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:34:26.079Z"
+    },
+    {
+      "id": "6beaa1f1-3271-4415-b8bd-3fef7d4ffe05",
+      "runId": "case-01-grok-4.3",
+      "task": "parse_job",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "ee7993bb-467f-9f88-bdc6-f051d836c92a",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 954,
+      "outputTokens": 80,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "12581000",
+      "estimatedUsd": 0.0012580999999999998,
+      "durationMs": 1414,
+      "firstContentMs": 907,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:34:37.605Z"
+    },
+    {
+      "id": "472ff28e-007b-4ebd-8d62-b5ed80591fd8",
+      "runId": "case-01-grok-4.3",
+      "task": "match",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "1c822ac3-011b-9b71-96a3-d45ff969ecea",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 1258,
+      "outputTokens": 128,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "17581000",
+      "estimatedUsd": 0.0017580999999999999,
+      "durationMs": 1717,
+      "firstContentMs": 1113,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:34:49.107Z"
+    },
+    {
+      "id": "79fae15a-9e2e-4083-9f31-6dcfa3c3064e",
+      "runId": "case-02-grok-4.3",
+      "task": "parse_resume",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "87386625-4c18-9618-92ce-767824474d53",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 946,
+      "outputTokens": 78,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "12431000",
+      "estimatedUsd": 0.0012430999999999998,
+      "durationMs": 1274,
+      "firstContentMs": 815,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:35:00.609Z"
+    },
+    {
+      "id": "ea9b26e4-18d5-481b-9907-b1321d7a98e8",
+      "runId": "case-02-grok-4.3",
+      "task": "parse_job",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "f42f3c73-0641-9a7e-8bbe-953e9920db3d",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 940,
+      "outputTokens": 74,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "12256000",
+      "estimatedUsd": 0.0012255999999999999,
+      "durationMs": 1349,
+      "firstContentMs": 830,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:35:12.113Z"
+    },
+    {
+      "id": "31898971-62ea-4026-86f2-022c26a8c585",
+      "runId": "case-02-grok-4.3",
+      "task": "match",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "3f033e21-683d-9d71-bdd5-a95621a98270",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 1072,
+      "outputTokens": 63,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "13631000",
+      "estimatedUsd": 0.0013631,
+      "durationMs": 1315,
+      "firstContentMs": 888,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:35:23.678Z"
+    },
+    {
+      "id": "ea790c8f-c3cc-43eb-953b-dfe739925426",
+      "runId": "case-03-grok-4.3",
+      "task": "parse_resume",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "73c0a903-c176-9f61-b8a3-7c595f853fe8",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 949,
+      "outputTokens": 9,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "10743500",
+      "estimatedUsd": 0.00107435,
+      "durationMs": 1010,
+      "firstContentMs": 976,
+      "result": "invalid",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:35:35.142Z"
+    },
+    {
+      "id": "aea1cec8-af0e-40a2-9bd5-35735e28e6f0",
+      "runId": "case-04-grok-4.3",
+      "task": "parse_resume",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "6ce37b47-c644-9ae6-9f64-1c6786bbf654",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 951,
+      "outputTokens": 82,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "12593500",
+      "estimatedUsd": 0.00125935,
+      "durationMs": 1556,
+      "firstContentMs": 924,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:35:46.649Z"
+    },
+    {
+      "id": "9838762f-52e5-4a09-bc31-807863e8782c",
+      "runId": "case-04-grok-4.3",
+      "task": "parse_job",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "375223c0-5c0e-9d60-84c7-146d82b62862",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 957,
+      "outputTokens": 81,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "12643500",
+      "estimatedUsd": 0.0012643499999999998,
+      "durationMs": 1230,
+      "firstContentMs": 977,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:35:58.148Z"
+    },
+    {
+      "id": "c4415f33-ef92-4592-bbd7-8e457ebafd22",
+      "runId": "case-04-grok-4.3",
+      "task": "match",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "e3f077c5-226d-97ec-86c4-34950701d309",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 1091,
+      "outputTokens": 74,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "14143500",
+      "estimatedUsd": 0.00141435,
+      "durationMs": 1167,
+      "firstContentMs": 902,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:36:09.669Z"
+    },
+    {
+      "id": "e7ad8b87-0a20-4ca7-ab2e-5e7e9de5f368",
+      "runId": "case-05-grok-4.3",
+      "task": "parse_resume",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "bd7e6122-25fb-9c62-a5a7-397b7db503f9",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 960,
+      "outputTokens": 88,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "12856000",
+      "estimatedUsd": 0.0012855999999999998,
+      "durationMs": 1472,
+      "firstContentMs": 1252,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:36:21.175Z"
+    },
+    {
+      "id": "1abdaf1a-a2ed-4028-8ad6-259882301cb7",
+      "runId": "case-05-grok-4.3",
+      "task": "parse_job",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "5415d39e-9f9b-9dce-92c6-932d4564f0cd",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 942,
+      "outputTokens": 76,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "12331000",
+      "estimatedUsd": 0.0012331,
+      "durationMs": 1250,
+      "firstContentMs": 743,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:36:32.667Z"
+    },
+    {
+      "id": "fb3e44fd-3dca-465c-a8d5-72f3bac7cd32",
+      "runId": "case-05-grok-4.3",
+      "task": "match",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "1d507dce-06e6-9a59-8be9-10a428d7f062",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 1092,
+      "outputTokens": 157,
+      "cachedTokens": 704,
+      "reasoningTokens": 0,
+      "billedTicks": "10183000",
+      "estimatedUsd": 0.0010183,
+      "durationMs": 1953,
+      "firstContentMs": 694,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:36:44.187Z"
+    },
+    {
+      "id": "ebcd0a46-f328-40e9-89c0-f5a9ab6a12f6",
+      "runId": "case-06-grok-4.3",
+      "task": "parse_resume",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "0d78f471-da53-96f2-bdbe-fbefe95f29e0",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 980,
+      "outputTokens": 288,
+      "cachedTokens": 256,
+      "reasoningTokens": 0,
+      "billedTicks": "16762000",
+      "estimatedUsd": 0.0016762,
+      "durationMs": 3093,
+      "firstContentMs": 2962,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:36:55.698Z"
+    },
+    {
+      "id": "e5d76e0e-f14f-4f5b-bc8d-fc9cfda7a06b",
+      "runId": "case-06-grok-4.3",
+      "task": "parse_job",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "39427e46-66e3-923e-80b8-eacea33c9e19",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 949,
+      "outputTokens": 85,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "12643500",
+      "estimatedUsd": 0.0012643499999999998,
+      "durationMs": 5727,
+      "firstContentMs": 5709,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:37:07.219Z"
+    },
+    {
+      "id": "2a6261d0-790a-46aa-b321-ad9485519999",
+      "runId": "case-06-grok-4.3",
+      "task": "match",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "cc18c779-3f67-9e33-a60c-0c08342208e6",
+      "promptVersion": "evidence-v1",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 1264,
+      "outputTokens": 135,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "17831000",
+      "estimatedUsd": 0.0017831,
+      "durationMs": 3012,
+      "firstContentMs": 2929,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T17:37:18.751Z"
+    }
+  ],
+  "knownBilledUsd": 0.0217779,
+  "unknownCosts": 0,
+  "manualSemanticReview": "待人工核對，不以格式通過取代語意評審"
+}

@@ -8,4 +8,5 @@ test-results/
 playwright-report/
 *.tsbuildinfo
 docs/evidence/private/
+/docs/evidence-stage1.png
 exports/

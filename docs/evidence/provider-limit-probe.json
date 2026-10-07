@@ -1,0 +1,28 @@
+{
+  "status": 200,
+  "error": null,
+  "usage": {
+    "input_tokens": 188,
+    "input_tokens_details": {
+      "cached_tokens": 128
+    },
+    "output_tokens": 1,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 189,
+    "num_sources_used": 0,
+    "num_server_side_tools_used": 0,
+    "cost_in_usd_ticks": 1031000,
+    "context_details": {
+      "input_tokens": 188,
+      "output_tokens": 6
+    }
+  },
+  "headers": {
+    "x-ratelimit-limit-requests": "1800",
+    "x-ratelimit-limit-tokens": "10000000",
+    "x-ratelimit-remaining-requests": "1800",
+    "x-ratelimit-remaining-tokens": "10000000"
+  }
+}

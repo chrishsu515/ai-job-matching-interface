@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-07T07:40:44.670Z",
+  "browser": "系統 Chrome",
+  "mode": "real",
+  "durationMs": 142133,
+  "jobCount": 9,
+  "results": [
+    {
+      "status": "completed",
+      "error": null
+    },
+    {
+      "status": "completed",
+      "error": null
+    },
+    {
+      "status": "completed",
+      "error": null
+    },
+    {
+      "status": "completed",
+      "error": null
+    },
+    {
+      "status": "completed",
+      "error": null
+    },
+    {
+      "status": "completed",
+      "error": null
+    },
+    {
+      "status": "completed",
+      "error": null
+    },
+    {
+      "status": "completed",
+      "error": null
+    },
+    {
+      "status": "completed",
+      "error": null
+    }
+  ],
+  "newRequests": 16,
+  "billedUsd": 0.06977455,
+  "unknownCostCount": 0,
+  "usage": [
+    {
+      "id": "31ba3512-5b27-450f-ae53-c0ee9404dca8",
+      "model": "grok-4.3",
+      "inputTokens": 3863,
+      "outputTokens": 1045,
+      "billedTicks": "73068500",
+      "result": "completed"
+    },
+    {
+      "id": "a6873b73-1a8c-4cc2-b927-7e6651036740",
+      "model": "grok-4.3",
+      "inputTokens": 3510,
+      "outputTokens": 561,
+      "billedTicks": "56556000",
+      "result": "completed"
+    },
+    {
+      "id": "fb435e1c-cdf7-4f65-b440-9b66d13ef1e4",
+      "model": "grok-4.3",
+      "inputTokens": 1095,
+      "outputTokens": 284,
+      "billedTicks": "19443500",
+      "result": "completed"
+    },
+    {
+      "id": "88b4278e-76dd-4b80-8600-3709cc0ebf07",
+      "model": "grok-4.3",
+      "inputTokens": 3471,
+      "outputTokens": 366,
+      "billedTicks": "51193500",
+      "result": "completed"
+    },
+    {
+      "id": "2b1268ad-9a1e-4128-8cf1-ed18cff0f8df",
+      "model": "grok-4.3",
+      "inputTokens": 1198,
+      "outputTokens": 666,
+      "billedTicks": "30281000",
+      "result": "completed"
+    },
+    {
+      "id": "a0b9b4c9-c528-4012-b40a-c65479d247f8",
+      "model": "grok-4.3",
+      "inputTokens": 3794,
+      "outputTokens": 898,
+      "billedTicks": "68531000",
+      "result": "completed"
+    },
+    {
+      "id": "9803434b-cc86-43a1-a436-eb92add6a445",
+      "model": "grok-4.3",
+      "inputTokens": 1081,
+      "outputTokens": 416,
+      "billedTicks": "22568500",
+      "result": "completed"
+    },
+    {
+      "id": "ae1a5290-5ec4-4362-a539-ce52c426b650",
+      "model": "grok-4.3",
+      "inputTokens": 3474,
+      "outputTokens": 453,
+      "billedTicks": "52062000",
+      "result": "completed"
+    },
+    {
+      "id": "77ad1ab3-62e2-45c1-9935-189bbbbe13da",
+      "model": "grok-4.3",
+      "inputTokens": 1095,
+      "outputTokens": 419,
+      "billedTicks": "22818500",
+      "result": "completed"
+    },
+    {
+      "id": "1c89278b-a49e-4178-91e5-427e6d30dcfc",
+      "model": "grok-4.3",
+      "inputTokens": 3484,
+      "outputTokens": 376,
+      "billedTicks": "51606000",
+      "result": "completed"
+    },
+    {
+      "id": "1dc3012b-c897-4118-b50a-bd0bfef2174f",
+      "model": "grok-4.3",
+      "inputTokens": 1198,
+      "outputTokens": 475,
+      "billedTicks": "25506000",
+      "result": "completed"
+    },
+    {
+      "id": "98156886-065f-4639-82f0-adb985fa64b1",
+      "model": "grok-4.3",
+      "inputTokens": 3811,
+      "outputTokens": 912,
+      "billedTicks": "69093500",
+      "result": "completed"
+    },
+    {
+      "id": "e91de955-2b47-4c6d-b881-e0d1b8c44577",
+      "model": "grok-4.3",
+      "inputTokens": 1137,
+      "outputTokens": 432,
+      "billedTicks": "23668500",
+      "result": "completed"
+    },
+    {
+      "id": "d59ad64a-81fe-490f-bf8f-ab0863d3e6cd",
+      "model": "grok-4.3",
+      "inputTokens": 3536,
+      "outputTokens": 551,
+      "billedTicks": "56631000",
+      "result": "completed"
+    },
+    {
+      "id": "01b1a3fd-f5ef-4c11-bd6d-99e23f2bef6c",
+      "model": "grok-4.3",
+      "inputTokens": 1095,
+      "outputTokens": 287,
+      "billedTicks": "18174500",
+      "result": "completed"
+    },
+    {
+      "id": "a6fee1c0-d885-4f38-9234-29e35475dfa3",
+      "model": "grok-4.3",
+      "inputTokens": 3483,
+      "outputTokens": 574,
+      "billedTicks": "56543500",
+      "result": "completed"
+    }
+  ],
+  "documentCountUnchanged": true,
+  "pageErrors": [],
+  "reloadDidNotRestartBatch": true
+}

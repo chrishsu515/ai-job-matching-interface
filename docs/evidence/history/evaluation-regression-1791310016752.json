@@ -1,0 +1,300 @@
+{
+  "date": "2026-10-06T18:06:56.752Z",
+  "mode": "real",
+  "model": "grok-4.3",
+  "promptVersion": "evidence-v3",
+  "contractVersion": "contract-v1",
+  "validatorVersion": "validator-v3",
+  "cases": [
+    {
+      "id": "case-16",
+      "name": "成果不等於技術",
+      "split": "development",
+      "expected": "missing_evidence",
+      "passed": true,
+      "durationMs": 7214,
+      "reviews": [
+        {
+          "id": "96f3d14f-70a1-4bdf-bc4f-2c72cf280522",
+          "documentId": "595a4e99-e16f-48aa-845b-f53e42a48033",
+          "versionId": "f959e2b6-7e80-4cc7-8f59-0bc2d3bc8f01",
+          "revision": 1,
+          "items": [
+            {
+              "label": "參與客服流程整理",
+              "kind": "experience",
+              "category": null,
+              "platform": "unknown",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "f959e2b6-7e80-4cc7-8f59-0bc2d3bc8f01-s2",
+                  "quote": "- 參與客服流程整理。",
+                  "documentVersionId": "f959e2b6-7e80-4cc7-8f59-0bc2d3bc8f01",
+                  "start": 7,
+                  "end": 18
+                }
+              ],
+              "id": "b901758f-a9b4-4ed8-be9b-4be62f88c825",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "參與客服流程整理",
+              "kind": "experience",
+              "category": null,
+              "platform": "unknown",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "f959e2b6-7e80-4cc7-8f59-0bc2d3bc8f01-s2",
+                  "quote": "- 參與客服流程整理。",
+                  "documentVersionId": "f959e2b6-7e80-4cc7-8f59-0bc2d3bc8f01",
+                  "start": 7,
+                  "end": 18
+                }
+              ],
+              "id": "b901758f-a9b4-4ed8-be9b-4be62f88c825",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T18:06:50.091Z"
+        },
+        {
+          "id": "927b3161-990e-49da-bf88-bd0cca831a2e",
+          "documentId": "6646bdd7-2bd2-44bb-877a-998760fbfdd6",
+          "versionId": "c0fd025c-ec3e-4f62-8e89-eefe5b8927ec",
+          "revision": 1,
+          "items": [
+            {
+              "label": "GraphQL 使用經驗",
+              "kind": "requirement",
+              "category": "preferred",
+              "platform": "unknown",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "c0fd025c-ec3e-4f62-8e89-eefe5b8927ec-s2",
+                  "quote": "- 加分：GraphQL 使用經驗。",
+                  "documentVersionId": "c0fd025c-ec3e-4f62-8e89-eefe5b8927ec",
+                  "start": 7,
+                  "end": 25
+                }
+              ],
+              "id": "e238cde9-1ea1-42f3-b9c2-fafe9624364d",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "originalItems": [
+            {
+              "label": "GraphQL 使用經驗",
+              "kind": "requirement",
+              "category": "preferred",
+              "platform": "unknown",
+              "years": null,
+              "refs": [
+                {
+                  "segmentId": "c0fd025c-ec3e-4f62-8e89-eefe5b8927ec-s2",
+                  "quote": "- 加分：GraphQL 使用經驗。",
+                  "documentVersionId": "c0fd025c-ec3e-4f62-8e89-eefe5b8927ec",
+                  "start": 7,
+                  "end": 25
+                }
+              ],
+              "id": "e238cde9-1ea1-42f3-b9c2-fafe9624364d",
+              "origin": "model",
+              "edited": false
+            }
+          ],
+          "warnings": [],
+          "conflicts": [],
+          "confirmed": false,
+          "mode": "real",
+          "createdAt": "2026-10-06T18:06:51.236Z"
+        }
+      ],
+      "analysis": {
+        "id": "ffd63b3f-0ce7-4e01-b217-7479d7337ac1",
+        "resumeId": "595a4e99-e16f-48aa-845b-f53e42a48033",
+        "jobId": "6646bdd7-2bd2-44bb-877a-998760fbfdd6",
+        "resumeVersionId": "f959e2b6-7e80-4cc7-8f59-0bc2d3bc8f01",
+        "jobVersionId": "c0fd025c-ec3e-4f62-8e89-eefe5b8927ec",
+        "resumeReviewRevision": 2,
+        "jobReviewRevision": 2,
+        "items": [
+          {
+            "requirementId": "e238cde9-1ea1-42f3-b9c2-fafe9624364d",
+            "status": "missing_evidence",
+            "reason": "履歷未提及足以支持這項條件的證據；不能據此判斷不具備能力。 履歷中未提及 GraphQL 使用經驗",
+            "evidenceRefs": [],
+            "clarifyingQuestion": null,
+            "suggestedAction": null,
+            "excluded": false,
+            "guardrail": null
+          }
+        ],
+        "mode": "real",
+        "createdAt": "2026-10-06T18:06:54.227Z"
+      }
+    },
+    {
+      "id": "case-18",
+      "name": "保留行動年資",
+      "split": "holdout",
+      "expected": "missing_evidence",
+      "passed": false,
+      "durationMs": 2503,
+      "error": "沒有整理出可引用項目，請補充內容或重新核對。"
+    }
+  ],
+  "sampleCount": 2,
+  "passed": 1,
+  "usage": [
+    {
+      "id": "b7c99500-5e53-4b06-aeb4-007951e73e92",
+      "runId": "fd26d18a-d30b-425a-ac0b-aca567914ebc",
+      "task": "parse_resume",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "d5b520f0-4735-9550-9657-81ec9caa4a3e",
+      "promptVersion": "evidence-v3",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 1044,
+      "outputTokens": 79,
+      "cachedTokens": 256,
+      "reasoningTokens": 0,
+      "billedTicks": "12337000",
+      "estimatedUsd": 0.0012337000000000001,
+      "durationMs": 3029,
+      "firstContentMs": 3013,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T18:06:47.054Z"
+    },
+    {
+      "id": "2787b705-088e-4012-a19a-5cf55fb63a5c",
+      "runId": "6afdec13-2d5a-42e9-af86-82ac061e0490",
+      "task": "parse_job",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "60458ff6-235e-9043-88d5-5ca0c620746b",
+      "promptVersion": "evidence-v3",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 946,
+      "outputTokens": 76,
+      "cachedTokens": 768,
+      "reasoningTokens": 0,
+      "billedTicks": "5661000",
+      "estimatedUsd": 0.0005661,
+      "durationMs": 1102,
+      "firstContentMs": 671,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T18:06:50.129Z"
+    },
+    {
+      "id": "74fadafe-d8d2-4bc1-b8bc-866b1fcf8d4a",
+      "runId": "3e495833-b550-41fa-a1b8-225dbd600d1f",
+      "task": "match",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "6cf2edf3-7050-9ca5-8f74-be97697efdd1",
+      "promptVersion": "evidence-v3",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 1091,
+      "outputTokens": 87,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "14468500",
+      "estimatedUsd": 0.00144685,
+      "durationMs": 2950,
+      "firstContentMs": 2939,
+      "result": "completed",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T18:06:51.268Z"
+    },
+    {
+      "id": "373ad47e-4245-4036-9777-1f6aa626a188",
+      "runId": "eeb7a846-de10-4709-92ba-b78b62be8ec0",
+      "task": "parse_resume",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "64319c5b-bd72-9481-9e7c-6370b20e8a15",
+      "promptVersion": "evidence-v3",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 1,
+      "inputTokens": 1048,
+      "outputTokens": 9,
+      "cachedTokens": 128,
+      "reasoningTokens": 0,
+      "billedTicks": "11981000",
+      "estimatedUsd": 0.0011981,
+      "durationMs": 797,
+      "firstContentMs": 791,
+      "result": "invalid",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T18:06:54.271Z"
+    },
+    {
+      "id": "5b83e95d-d6da-4d2f-bb3b-a1e7434d99a4",
+      "runId": "eeb7a846-de10-4709-92ba-b78b62be8ec0",
+      "task": "parse_resume",
+      "mode": "real",
+      "model": "grok-4.3",
+      "returnedModel": "grok-4.3",
+      "providerId": "d7d6c02a-a41e-9d9f-a813-b1f7ed5b036f",
+      "promptVersion": "evidence-v3",
+      "configFingerprint": "3694dc0109310f3a",
+      "attempt": 2,
+      "inputTokens": 1083,
+      "outputTokens": 9,
+      "cachedTokens": 256,
+      "reasoningTokens": 0,
+      "billedTicks": "11074500",
+      "estimatedUsd": 0.00110745,
+      "durationMs": 638,
+      "firstContentMs": 565,
+      "result": "invalid",
+      "prices": {
+        "input": 1.25,
+        "cached": 0.2,
+        "output": 2.5
+      },
+      "createdAt": "2026-10-06T18:06:56.089Z"
+    }
+  ],
+  "knownBilledUsd": 0.0055522,
+  "unknownCosts": 0,
+  "manualSemanticReview": "待人工核對，不以格式通過取代語意評審"
+}

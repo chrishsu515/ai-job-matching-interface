@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-06T18:17:16.853Z",
+  "cleanDirectory": "D:\\Develop\\求職用展示專案\\ai-job-matching-interface\\data\\clean-room-1791310608840",
+  "steps": [
+    {
+      "step": "ci --no-audit --no-fund",
+      "output": "\nadded 458 packages in 14s\n"
+    },
+    {
+      "step": "run build",
+      "output": "\n> ai-job-matching-interface@0.1.0 build\n> next build\n\n▲ Next.js 16.3.8 (Turbopack)\n- Environments: .env\n✓ Running next.config.ts took 132ms\n\n  Creating an optimized production build ...\n✓ Compiled successfully in 3.2s\n  Running TypeScript ...\n  Finished TypeScript in 2.0s ...\n  Collecting page data using 10 workers ...\n  Generating static pages using 10 workers (0/5) ...\n  Generating static pages using 10 workers (1/5) \r\n  Generating static pages using 10 workers (2/5) \r\n  Generating static pages using 10 workers (3/5) \r\n✓ Generating static pages using 10 workers (5/5) in 440ms\n  Finalizing page optimization ...\n\nRoute (app)\n┌ ○ /\n├ ○ /_not-found\n├ ƒ /analysis/[id]\n├ ƒ /api/[...path]\n├ ○ /compare\n├ ƒ /review/[id]\n├ ƒ /rewrite/[id]\n└ ○ /settings\n\n\n○  (Static)   prerendered as static content\nƒ  (Dynamic)  server-rendered on demand\n\n"
+    }
+  ],
+  "savedViaBrowser": true,
+  "persistedAfterRestart": true,
+  "mode": "fixture",
+  "keyCopied": false
+}

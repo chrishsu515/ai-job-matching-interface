@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-07T07:40:44.670Z",
+  "fullEvaluation": {
+    "samples": 24,
+    "passed": 22,
+    "percentage": 91.66666666666666,
+    "billedUsd": 0.08494084999999997,
+    "unknownCosts": 1,
+    "requests": 72,
+    "requestLatency": {
+      "samples": 72,
+      "medianMs": 1363,
+      "slowestMs": 3041
+    },
+    "statusCounts": [
+      {
+        "status": "supported",
+        "samples": 9,
+        "passed": 9
+      },
+      {
+        "status": "missing_evidence",
+        "samples": 7,
+        "passed": 5
+      },
+      {
+        "status": "needs_confirmation",
+        "samples": 8,
+        "passed": 8
+      }
+    ],
+    "sourceChecks": [
+      {
+        "caseId": "case-01",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-02",
+        "references": 2,
+        "valid": true
+      },
+      {
+        "caseId": "case-03",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-04",
+        "references": 2,
+        "valid": true
+      },
+      {
+        "caseId": "case-05",
+        "references": 2,
+        "valid": true
+      },
+      {
+        "caseId": "case-06",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-07",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-08",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-09",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-10",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-11",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-12",
+        "references": 2,
+        "valid": true
+      },
+      {
+        "caseId": "case-13",
+        "references": 2,
+        "valid": true
+      },
+      {
+        "caseId": "case-14",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-15",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-17",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-19",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-20",
+        "references": 2,
+        "valid": true
+      },
+      {
+        "caseId": "case-21",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-22",
+        "references": 3,
+        "valid": true
+      },
+      {
+        "caseId": "case-23",
+        "references": 4,
+        "valid": true
+      },
+      {
+        "caseId": "case-24",
+        "references": 3,
+        "valid": true
+      }
+    ]
+  },
+  "liveFlow": {
+    "tasks": 5,
+    "billedUsd": 0.018572949999999998,
+    "durationMs": 30373,
+    "accepted": true,
+    "restored": true
+  },
+  "developmentSpending": {
+    "requests": 192,
+    "knownUsd": 0.4092959000000002,
+    "unknownCosts": 12,
+    "byModel": [
+      {
+        "model": "grok-4.3",
+        "requests": 167,
+        "knownUsd": 0.30266889999999985
+      },
+      {
+        "model": "grok-build-0.1",
+        "requests": 25,
+        "knownUsd": 0.106627
+      }
+    ],
+    "note": "逐次識別碼去重，包含失敗及歷次回歸；未知費用未計成零。獨立端點診斷費用另列，不是帳戶帳單總額。"
+  },
+  "limitations": [
+    "首次二十四案例採當時提示版本，不將回歸替换成原始成功。",
+    "僅合成單條件案例；未證明真實履歷或所有職缺的泛化品質。",
+    "代理依原文核對，沒有獨立人類評審或螢幕閱讀器驗收。"
+  ],
+  "batchFlow": {
+    "date": "2026-10-07T07:40:44.670Z",
+    "jobCount": 9,
+    "durationMs": 142133,
+    "newRequests": 16,
+    "billedUsd": 0.06977455,
+    "unknownCostCount": 0
+  }
+}

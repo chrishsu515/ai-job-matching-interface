@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-06T17:50:28.488Z",
+  "results": [
+    {
+      "model": "grok-4.3",
+      "pass": 4,
+      "samples": 6,
+      "cost": 0.019113849999999998,
+      "costPerValid": 0.0047784624999999996,
+      "qualified": false
+    },
+    {
+      "model": "grok-build-0.1",
+      "pass": 6,
+      "samples": 6,
+      "cost": 0.106627,
+      "costPerValid": 0.017771166666666668,
+      "qualified": true
+    }
+  ],
+  "decision": "必須人工核對關鍵錯誤及保留集後才能更換；預設維持 grok-4.3。"
+}
